@@ -1,0 +1,84 @@
+/* селектор по тегу */
+body {
+    width: 1440px;
+    height: 2048px;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 200px;
+    width: 1440px;
+    background-color: #ececec;
+    display: flex;
+    font-size: 28px;
+    align-items: center;
+    
+}
+
+nav {
+    
+    width: 1000px;
+    height: 64px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+li {
+    color: red;
+}
+/* селектор по классy */
+
+.site-name {
+    margin-left: 42px;
+    margin-right: 21px;
+    width: 599px;
+    height: 84px;
+    text-align: center;
+    font-size: 32px;
+    align-content: center;
+}
+
+.heading {
+    font-size: 36px;
+    text-align: center;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 16px 44px;
+    background-color: #f9bc76;
+    border: 3px solid red
+}
+
+
+.anime-card {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    border: 5px;
+}
+
+
+.anime-name, .anime-description {
+    font-size: 36px;
+}
+
+.anime-name {
+    font-weight: bold;
+    font-style: italic;
+    width: 376px;
+}
+
+.anime-description {
+    width: 380px;
+}
+
+
+.elpudg {
+    color: black;
+}
